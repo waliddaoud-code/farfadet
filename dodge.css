@@ -114,7 +114,7 @@ body {
 }
 
 
-@media screen and (max-width: 960px) {
+@media screen and (max-width: 600px) {
 
 
 
@@ -178,10 +178,11 @@ body {
       left: 80px;
       right: -300px;
 
-      transform: rotate(180deg) scale(.7);
+      transform: rotate(180deg) scale(.9);
 
 
     }
+
 
     85% {
       top: -360px;
