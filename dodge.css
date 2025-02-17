@@ -83,7 +83,7 @@ body {
     left: 80px;
     right: -300px;
 
-    transform: rotate(180deg) scale(.7);
+    transform: rotate(180deg) scale(1);
 
 
   }
@@ -99,7 +99,7 @@ body {
   85% {
     top: -360px;
     left: -608px;
-    transform: rotate(20deg) scale(.7);
+    transform: rotate(20deg) scale(2);
 
   }
 
