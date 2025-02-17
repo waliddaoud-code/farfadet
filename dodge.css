@@ -37,6 +37,10 @@ body {
   justify-content: center;
   height: 180px;
   width: 120px;
+
+}
+
+.move1 {
   animation: move 2s ease infinite;
 
 }
@@ -121,10 +125,13 @@ body {
     align-items: center;
     justify-content: center;
     height: 110px;
-    width: 80px;
-    animation: move 2s ease infinite;
+    width: 80px;   
 
   }
+  .move1 {
+  animation: move 2s ease infinite;
+
+}
 
   #dodge button {
     width: 100%;
