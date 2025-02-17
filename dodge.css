@@ -1,0 +1,201 @@
+body {
+  display: flex;
+  height: 100vh;
+  width: 100%;
+  margin: 0;
+  align-items: center;
+  justify-content: center;
+  background-color: hsl(310, 81%, 85%);
+
+}
+
+.counter {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  align-items: center;
+  left: -20px;
+  top: -45vh;
+  font-size: 1.5rem;
+  color: white;
+}
+
+.counter p {
+  display: flex;
+}
+
+.counter .num {
+  display: flex;
+  padding-left: 10px;
+  padding-top: 1px;
+}
+
+#dodge {
+  display: flex;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  height: 180px;
+  width: 120px;
+  animation: move 2s ease infinite;
+
+}
+
+#dodge button {
+  width: 100%;
+  height: 100%;
+  font-size: 3rem;
+  cursor: pointer;
+  background-image: url('img/poussin.png');
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  border: none;
+  background-color: transparent;
+
+
+
+}
+
+
+
+@keyframes move {
+
+  0% {
+    top: 0px;
+    left: 0;
+    right: 0;
+    transform: scale(1);
+  }
+
+  25% {
+    top: 300px;
+    left: 400px;
+    transform: rotate(90deg) scale(1.7);
+
+  }
+
+  50% {
+    top: -360px;
+    left: 80px;
+    right: -300px;
+
+    transform: rotate(180deg) scale(.7);
+
+
+  }
+
+  75% {
+    top: 360px;
+    left: -608px;
+    transform: rotate(20deg) scale(1.7);
+
+  }
+
+
+  85% {
+    top: -360px;
+    left: -608px;
+    transform: rotate(20deg) scale(.7);
+
+  }
+
+
+  100% {
+    top: 0px;
+    left: 0;
+    transform: rotate(360deg);
+
+    right: 0;
+  }
+}
+
+
+@media screen and (max-width: 960px) {
+
+
+
+
+  #dodge {
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    height: 110px;
+    width: 80px;
+    animation: move 2s ease infinite;
+
+  }
+
+  #dodge button {
+    width: 100%;
+    height: 100%;
+    font-size: 3rem;
+    cursor: pointer;
+    background-image: url('https://od.lk/s/NzhfNjY1MTE5OTRf/poussin.png');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    border: none;
+    background-color: transparent;
+
+
+
+  }
+
+  @keyframes move {
+
+    0% {
+      top: 0px;
+      left: 0;
+      right: 0;
+      transform: scale(1);
+    }
+
+    25% {
+      top: -200px;
+      left: -200px;
+      transform: rotate(90deg) scale(1.3);
+
+    }
+
+    50% {
+
+      top: 360px;
+      left: -98px;
+      transform: rotate(20deg) scale(1.3);
+
+
+    }
+
+    75% {
+      top: -360px;
+      left: 80px;
+      right: -300px;
+
+      transform: rotate(180deg) scale(.7);
+
+
+    }
+
+    85% {
+      top: -360px;
+      left: -60px;
+      transform: rotate(20deg) scale(1.5);
+
+    }
+
+
+
+    100% {
+      top: 0px;
+      left: 0;
+      transform: rotate(360deg);
+
+      right: 0;
+    }
+
+
+
+
+  }
+
+}
